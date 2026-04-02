@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render MyComposition out/video.mp4",
+    "build": "remotion render QuoteReel out/video.mp4",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,10 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "remotion": "^4.0.443"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.2"
   }
 }
